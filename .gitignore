@@ -1,0 +1,89 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter notebook checkpoints and cache
+.ipynb_checkpoints/
+.virtual_documents/
+.jupyter/
+.ipython/
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Anaconda/mamba artifacts
+anaconda_projects/
+anaconda3/
+micromamba/
+.conda/
+.anaconda/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+
+# VirtualBox and dev scratch folders
+.VirtualBox/
+Kafka-Spark/
+Spark/
+
+# Windows user profile folders (parent dirs)
+../Desktop/
+../Documents/
+../Downloads/
+../Pictures/
+../Videos/
+../Music/
+../Favorites/
+../Links/
+../Saved Games/
+../Searches/
+../Contacts/
+../AppData/
+../OneDrive/
+../*.ipynb
+../*.ini
+../*.dat
+../*.log*
+ntuser.*
+# Ignore everything outside repo root
+# Ignore parent directories
+../*
+../../*
