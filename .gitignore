@@ -12,6 +12,10 @@ ENV/
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
 Thumbs.db
 
@@ -20,6 +24,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+*~
 
 # Anaconda/mamba artifacts
 anaconda_projects/
@@ -33,9 +38,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
 
 # Distribution / packaging
-.Python
 build/
 dist/
 downloads/
@@ -58,32 +63,26 @@ wheels/
 
 # Environment variables
 .env
+.env.local
+.env.production
 
 # VirtualBox and dev scratch folders
 .VirtualBox/
 Kafka-Spark/
 Spark/
 
-# Windows user profile folders (parent dirs)
-../Desktop/
-../Documents/
-../Downloads/
-../Pictures/
-../Videos/
-../Music/
-../Favorites/
-../Links/
-../Saved Games/
-../Searches/
-../Contacts/
-../AppData/
-../OneDrive/
-../*.ipynb
-../*.ini
-../*.dat
-../*.log*
-ntuser.*
-# Ignore everything outside repo root
-# Ignore parent directories
-../*
-../../*
+# Jupyter
+.jupyter/
+.nbgrader/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
