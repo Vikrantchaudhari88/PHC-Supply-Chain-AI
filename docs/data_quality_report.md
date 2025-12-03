@@ -25,8 +25,8 @@ dtype: int64
 
 ### Expiry Risk Distribution
 LOW (>180d)         2636
-MEDIUM (90–180d)    1874
-HIGH (30–90d)       1633
+MEDIUM (90-180d)    1874
+HIGH (30-90d)       1633
 CRITICAL (<30d)      337
 dtype: int64
 
@@ -43,4 +43,4 @@ dtype: int64
 - All SKUs have corresponding master data
 - Data is NHSRC-compliant and ready for analysis
 
-**Generated**: 2025-12-03 17:27:44
+**Generated**: 2025-12-03 20:36:19

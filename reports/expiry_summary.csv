@@ -1,0 +1,5 @@
+expiry_risk_bucket,on_hand,price_per_unit,sku_id,batch_id,financial_risk,financial_risk_pct
+CRITICAL (<30d),64730,16.86,12,337,1091347.8,5.7
+HIGH (30-90d),285886,16.75,12,1618,4788590.5,25.0
+LOW (>180d),474582,16.79,12,2609,7968231.779999999,41.6
+MEDIUM (90-180d),336041,15.75,12,1848,5292645.75,27.7

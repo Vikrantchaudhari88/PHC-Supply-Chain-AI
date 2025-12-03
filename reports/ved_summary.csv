@@ -1,0 +1,4 @@
+ved_category,total_consumption,avg_daily_usage,std_daily_usage,total_stock,avg_lead_time,avg_coverage_days,pct_high_risk
+Desirable,6946,4.29,2.66,227770,5.35,29.05,14.57
+Essential,27634,12.79,8.22,390984,5.3,12.92,14.63
+Vital,42067,15.58,14.16,542485,5.38,19.19,15.37
