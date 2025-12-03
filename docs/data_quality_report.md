@@ -43,4 +43,4 @@ dtype: int64
 - All SKUs have corresponding master data
 - Data is NHSRC-compliant and ready for analysis
 
-**Generated**: 2025-12-02 00:47:24
+**Generated**: 2025-12-03 17:27:44
