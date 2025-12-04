@@ -1,0 +1,13 @@
+sku_id,ADC,ADC_std,observation_days,VED_category,FSN_category,recent_mean_7d,recent_std_7d,recent_cv_7d,days_since_last_consumption
+MED001,91.478,25.074,180,Vital,Fast,117.714,26.992,0.229,0
+MED002,72.206,20.922,180,Vital,Fast,94.143,28.02,0.298,0
+MED003,57.544,16.863,180,Vital,Fast,81.143,25.485,0.314,0
+MED004,64.172,16.088,180,Essential,Fast,72.857,12.24,0.168,0
+MED005,44.839,11.833,180,Essential,Fast,51.714,10.981,0.212,0
+MED006,9.372,2.561,180,Vital,Slow,9.143,1.773,0.194,0
+MED007,3.106,0.388,180,Vital,Slow,3.286,0.488,0.149,0
+MED008,16.489,3.355,180,Essential,Slow,16.857,3.532,0.21,0
+MED009,28.022,5.743,180,Essential,Slow,26.857,3.671,0.137,0
+MED010,13.167,2.955,180,Desirable,Slow,14.571,4.467,0.307,0
+MED011,5.45,1.518,180,Desirable,Slow,5.286,0.756,0.143,0
+MED012,19.972,4.491,180,Desirable,Fast,19.286,1.704,0.088,0
