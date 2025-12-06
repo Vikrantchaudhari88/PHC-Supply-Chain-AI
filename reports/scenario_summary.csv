@@ -1,0 +1,49 @@
+scenario,sku_id,sku_name,ved_category,demand_factor,lead_time_factor,scenario_forecast_14d,days_until_stockout,stockout_risk_flag,expiry_risk_flag,severity_score
+Base,MED007,Adrenaline Injection 1 mg/ml,Vital,1.0,1.0,56.0,5.75,0,0,0
+Base,MED001,Paracetamol Tablet 500mg,Vital,1.0,1.0,1550.2666666666669,1.0385310054184225,1,0,10
+Base,MED002,Amoxicillin Capsule 250mg,Vital,1.0,1.0,1318.0,1.072837632776935,1,0,10
+Base,MED003,Oral Rehydration Salts,Vital,1.0,1.0,1062.6,5.454545454545455,1,0,10
+Base,MED004,Ibuprofen Tablet 200mg,Essential,1.0,1.0,999.8563888203208,2.5623679846890535,1,0,10
+Base,MED008,Omeprazole Capsule 20mg,Essential,1.0,1.0,232.8126906760785,1.5033544734336188,1,0,10
+Base,MED010,Multivitamin Tablet,Desirable,1.0,1.0,179.86270522064655,3.1134859186790287,1,0,10
+Base,MED006,Insulin Injection 40 IU/ml,Vital,1.0,1.0,122.20135859014913,7.332160708663579,0,0,0
+Base,MED009,Metformin Tablet 500mg,Essential,1.0,1.0,371.4588363563047,2.9774496976540377,0,0,0
+Base,MED005,Cetirizine Tablet 5mg,Essential,1.0,1.0,724.0,8.662983425414364,0,0,0
+Base,MED012,Cotton Roll 100g,Desirable,1.0,1.0,270.0,24.474074074074075,0,0,0
+Base,MED011,Antiseptic Lotion,Desirable,1.0,1.0,76.92047874842393,10.738362701843226,0,0,0
+Outbreak,MED007,Adrenaline Injection 1 mg/ml,Vital,1.8,1.0,100.8,3.194444444444444,0,0,0
+Outbreak,MED001,Paracetamol Tablet 500mg,Vital,1.8,1.0,2790.4800000000005,0.5769616696769014,1,0,10
+Outbreak,MED002,Amoxicillin Capsule 250mg,Vital,1.8,1.0,2372.4,0.5960209070982971,1,0,10
+Outbreak,MED003,Oral Rehydration Salts,Vital,1.8,1.0,1912.6799999999998,3.0303030303030307,1,0,10
+Outbreak,MED004,Ibuprofen Tablet 200mg,Essential,1.8,1.0,1799.7414998765776,1.4235377692716964,1,0,10
+Outbreak,MED008,Omeprazole Capsule 20mg,Essential,1.8,1.0,419.0628432169413,0.8351969296853439,1,0,10
+Outbreak,MED010,Multivitamin Tablet,Desirable,1.8,1.0,323.7528693971638,1.7297143992661268,1,0,10
+Outbreak,MED006,Insulin Injection 40 IU/ml,Vital,1.8,1.0,219.96244546226842,4.073422615924211,0,0,0
+Outbreak,MED009,Metformin Tablet 500mg,Essential,1.8,1.0,668.6259054413484,1.6541387209189098,1,0,10
+Outbreak,MED005,Cetirizine Tablet 5mg,Essential,1.8,1.0,1303.2,4.812768569674647,1,0,10
+Outbreak,MED012,Cotton Roll 100g,Desirable,1.8,1.0,486.0,13.59670781893004,0,0,0
+Outbreak,MED011,Antiseptic Lotion,Desirable,1.8,1.0,138.4568617471631,5.9657570565795695,0,0,0
+Supply_Delay,MED007,Adrenaline Injection 1 mg/ml,Vital,1.1,1.6,61.60000000000001,5.227272727272727,0,0,0
+Supply_Delay,MED001,Paracetamol Tablet 500mg,Vital,1.1,1.6,1705.2933333333337,0.9441190958349294,1,0,10
+Supply_Delay,MED002,Amoxicillin Capsule 250mg,Vital,1.1,1.6,1449.8000000000002,0.9753069388881225,1,0,10
+Supply_Delay,MED003,Oral Rehydration Salts,Vital,1.1,1.6,1168.86,4.958677685950414,1,0,10
+Supply_Delay,MED004,Ibuprofen Tablet 200mg,Essential,1.1,1.6,1099.842027702353,2.3294254406264114,1,0,10
+Supply_Delay,MED008,Omeprazole Capsule 20mg,Essential,1.1,1.6,256.09395974368636,1.3666858849396537,1,0,10
+Supply_Delay,MED010,Multivitamin Tablet,Desirable,1.1,1.6,197.84897574271122,2.830441744253662,1,0,10
+Supply_Delay,MED006,Insulin Injection 40 IU/ml,Vital,1.1,1.6,134.42149444916404,6.665600644239618,0,0,0
+Supply_Delay,MED009,Metformin Tablet 500mg,Essential,1.1,1.6,408.6047199919352,2.706772452412761,1,0,10
+Supply_Delay,MED005,Cetirizine Tablet 5mg,Essential,1.1,1.6,796.4000000000001,7.875439477649421,1,0,10
+Supply_Delay,MED012,Cotton Roll 100g,Desirable,1.1,1.6,297.0,22.24915824915825,0,0,0
+Supply_Delay,MED011,Antiseptic Lotion,Desirable,1.1,1.6,84.61252662326633,9.762147910766569,0,0,0
+Worst_Case,MED007,Adrenaline Injection 1 mg/ml,Vital,2.5,2.0,140.0,2.3,1,0,10
+Worst_Case,MED001,Paracetamol Tablet 500mg,Vital,2.5,2.0,3875.666666666667,0.415412402167369,1,0,10
+Worst_Case,MED002,Amoxicillin Capsule 250mg,Vital,2.5,2.0,3295.0,0.4291350531107739,1,0,10
+Worst_Case,MED003,Oral Rehydration Salts,Vital,2.5,2.0,2656.5,2.1818181818181817,1,0,10
+Worst_Case,MED004,Ibuprofen Tablet 200mg,Essential,2.5,2.0,2499.6409720508022,1.0249471938756212,1,0,10
+Worst_Case,MED008,Omeprazole Capsule 20mg,Essential,2.5,2.0,582.0317266901963,0.6013417893734476,1,0,10
+Worst_Case,MED010,Multivitamin Tablet,Desirable,2.5,2.0,449.6567630516164,1.2453943674716113,1,0,10
+Worst_Case,MED006,Insulin Injection 40 IU/ml,Vital,2.5,2.0,305.5033964753728,2.9328642834654315,1,0,10
+Worst_Case,MED009,Metformin Tablet 500mg,Essential,2.5,2.0,928.6470908907618,1.190979879061615,1,0,10
+Worst_Case,MED005,Cetirizine Tablet 5mg,Essential,2.5,2.0,1810.0,3.4651933701657462,1,0,10
+Worst_Case,MED012,Cotton Roll 100g,Desirable,2.5,2.0,675.0,9.78962962962963,1,0,10
+Worst_Case,MED011,Antiseptic Lotion,Desirable,2.5,2.0,192.30119687105983,4.29534508073729,1,0,10
