@@ -528,5 +528,32 @@
 
 # 
 
-# \*Last Updated: Day 6 - Replenishment Policy Engine Complete\*
+# ## 📊 DATA DICTIONARY & OUTPUTS
+
+This project generates 13 comprehensive reports, each serving specific stakeholders:
+
+### **For PHC Pharmacists:**
+- `final_actions_with_escalation.csv` - Daily action list with deadlines
+- `actionable_alerts.json` - Real-time priority alerts
+
+### **For District SCM Officers:**
+- `final_decision_matrix.csv` - Complete decision logic
+- `scenario_summary.csv` - Risk scenario planning
+- `stock_health_matrix.csv` - NHSRC compliance dashboard
+
+### **For Data Scientists/Analysts:**
+- `model_performance_baseline.csv` - AI model benchmarking
+- `simulation_dashboard.csv` - Comprehensive simulation results
+- `best_model_selection.csv` - Model selection per SKU
+
+### **For Financial Controllers:**
+- `expiry_summary.csv` - Financial risk from expiry
+- `ved_summary.csv` - Investment by clinical priority
+- `fsn_summary.csv` - Turnover efficiency analysis
+
+### **For System Integrators:**
+- `system_alerts.json` - API-ready alert format
+- `replenishment_recommendations.csv` - Procurement system input
+
+**Full column-by-column documentation available in [DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md)**
 
