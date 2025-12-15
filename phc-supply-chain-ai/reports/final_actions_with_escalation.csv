@@ -1,0 +1,97 @@
+sku_id,sku_name,ved_category,fsn_category,current_stock,ADC,days_cover,min_days_cover,cover_gap_vs_min,base_forecast_14d,effective_lead_time,resilience_score,resilience_band,expiry_risk_bucket,expiry_risk_flag,final_action,final_action_priority,forecast_confidence,responsible_person,action_window,message_style,action_message
+MED008,Omeprazole Capsule 20mg,Essential,Slow,25,16.49,1.2681159420289854,10,-8.731884057971016,232.8126906760785,2.4,25.0,Critical,LOW (>180d),0,URGENT REPLENISH (ESSENTIAL),1,HIGH,Escalate to District SCM + Medical Officer,Within 24 Hours,Hard Alert,"🚨 MED008 | Omeprazole Capsule 20mg | Essential | Slow
+Action: URGENT REPLENISH (ESSENTIAL)
+Reason: Stock coverage 1.3d < minimum requirement 10d.
+Escalation: Escalate to District SCM + Medical Officer
+Deadline: Within 24 Hours
+Next Step: Continue regular monitoring → Update stock cards → Report in weekly review.
+Confidence: HIGH
+--------------------------------------------------"
+MED001,Paracetamol Tablet 500mg,Vital,Fast,115,91.48,12.014925373134329,14,-1.9850746268656716,1550.2666666666669,12.0,40.0,Risky,LOW (>180d),0,EMERGENCY REPLENISH (VITAL),1,HIGH,Escalate to District SCM + Medical Officer,Within 24 Hours,Hard Alert,"🚨 MED001 | Paracetamol Tablet 500mg | Vital | Fast
+Action: EMERGENCY REPLENISH (VITAL)
+Reason: Stock coverage 12.0d < minimum requirement 14d.
+Escalation: Escalate to District SCM + Medical Officer
+Deadline: Within 24 Hours
+Next Step: Raise indent in DVDMS → Allocate buffer stock → Enable FEFO redistribution if available nearby.
+Confidence: HIGH
+--------------------------------------------------"
+MED002,Amoxicillin Capsule 250mg,Vital,Fast,101,72.21,7.069999999999999,14,-6.930000000000001,1318.0,7.199999999999999,40.0,Risky,LOW (>180d),0,EMERGENCY REPLENISH (VITAL),1,MEDIUM,Escalate to District SCM + Medical Officer,Within 24 Hours,Soft Advisory,"🚨 MED002 | Amoxicillin Capsule 250mg | Vital | Fast
+Action: EMERGENCY REPLENISH (VITAL)
+Reason: Stock coverage 7.1d < minimum requirement 14d.
+Escalation: Escalate to District SCM + Medical Officer
+Deadline: Within 24 Hours
+Next Step: Raise indent in DVDMS → Allocate buffer stock → Enable FEFO redistribution if available nearby.
+Confidence: MEDIUM
+--------------------------------------------------"
+MED003,Oral Rehydration Salts,Vital,Fast,414,57.54,25.200000000000003,14,11.200000000000005,1062.6,9.6,55.0,Risky,LOW (>180d),0,EMERGENCY REPLENISH (VITAL),1,HIGH,Escalate to District SCM + Medical Officer,Within 24 Hours,Hard Alert,"🚨 MED003 | Oral Rehydration Salts | Vital | Fast
+Action: EMERGENCY REPLENISH (VITAL)
+Reason: Stock coverage 25.2d requires monitoring.
+Escalation: Escalate to District SCM + Medical Officer
+Deadline: Within 24 Hours
+Next Step: Raise indent in DVDMS → Allocate buffer stock → Enable FEFO redistribution if available nearby.
+Confidence: HIGH
+--------------------------------------------------"
+MED007,Adrenaline Injection 1 mg/ml,Vital,Slow,23,3.11,0.9415204678362572,30,-29.058479532163744,56.0,3.6,65.0,Risky,LOW (>180d),0,EMERGENCY REPLENISH (VITAL),1,HIGH,Escalate to District SCM + Medical Officer,Within 24 Hours,Hard Alert,"🚨 MED007 | Adrenaline Injection 1 mg/ml | Vital | Slow
+Action: EMERGENCY REPLENISH (VITAL)
+Reason: Stock coverage 0.9d < minimum requirement 30d.
+Escalation: Escalate to District SCM + Medical Officer
+Deadline: Within 24 Hours
+Next Step: Raise indent in DVDMS → Allocate buffer stock → Enable FEFO redistribution if available nearby.
+Confidence: HIGH
+--------------------------------------------------"
+MED004,Ibuprofen Tablet 200mg,Essential,Fast,183,64.17,8.264516129032259,10,-1.735483870967741,999.8563888203208,4.8,40.0,Risky,LOW (>180d),0,REORDER SOON (ESSENTIAL),2,HIGH,PHC Pharmacist Action Required,Within 3 Days,Hard Alert,"⚠️ MED004 | Ibuprofen Tablet 200mg | Essential | Fast
+Action: REORDER SOON (ESSENTIAL)
+Reason: Stock coverage 8.3d < minimum requirement 10d.
+Escalation: PHC Pharmacist Action Required
+Deadline: Within 3 Days
+Next Step: Prepare purchase requisition → Check supplier lead time → Update stock position in LMIS.
+Confidence: HIGH
+--------------------------------------------------"
+MED010,Multivitamin Tablet,Desirable,Slow,40,13.17,3.5443037974683542,7,-3.4556962025316458,179.86270522064655,6.0,40.0,Risky,LOW (>180d),0,ONLY REORDER IF BUDGET ALLOWS,3,HIGH,Review in Weekly Procurement Meeting,Within 7 Days,Hard Alert,"⚠️ MED010 | Multivitamin Tablet | Desirable | Slow
+Action: ONLY REORDER IF BUDGET ALLOWS
+Reason: Stock coverage 3.5d < minimum requirement 7d.
+Escalation: Review in Weekly Procurement Meeting
+Deadline: Within 7 Days
+Next Step: Prepare purchase requisition → Check supplier lead time → Update stock position in LMIS.
+Confidence: HIGH
+--------------------------------------------------"
+MED006,Insulin Injection 40 IU/ml,Vital,Slow,64,9.37,2.5454545454545454,30,-27.454545454545453,122.20135859014913,3.6,65.0,Risky,LOW (>180d),0,EMERGENCY REPLENISH (VITAL),4,HIGH,Monitor Only,Next Review Cycle (15 days),Hard Alert,"ℹ️ MED006 | Insulin Injection 40 IU/ml | Vital | Slow
+Action: EMERGENCY REPLENISH (VITAL)
+Reason: Stock coverage 2.5d < minimum requirement 30d.
+Escalation: Monitor Only
+Deadline: Next Review Cycle (15 days)
+Next Step: Raise indent in DVDMS → Allocate buffer stock → Enable FEFO redistribution if available nearby.
+Confidence: HIGH
+--------------------------------------------------"
+MED009,Metformin Tablet 500mg,Essential,Slow,79,28.02,5.368932038834951,10,-4.631067961165049,371.4588363563047,2.4,80.0,Watchlist,LOW (>180d),0,MONITOR & REVIEW NEXT CYCLE,4,HIGH,Monitor Only,Next Review Cycle (15 days),Soft Advisory,"ℹ️ MED009 | Metformin Tablet 500mg | Essential | Slow
+Action: MONITOR & REVIEW NEXT CYCLE
+Reason: Stock coverage 5.4d < minimum requirement 10d.
+Escalation: Monitor Only
+Deadline: Next Review Cycle (15 days)
+Next Step: Continue regular monitoring → Update stock cards → Report in weekly review.
+Confidence: HIGH
+--------------------------------------------------"
+MED012,Cotton Roll 100g,Desirable,Fast,472,19.97,91.77777777777776,7,84.77777777777776,270.0,8.4,81.0,Watchlist,LOW (>180d),0,MANUAL REVIEW,4,HIGH,Monitor Only,Next Review Cycle (15 days),Soft Advisory,"ℹ️ MED012 | Cotton Roll 100g | Desirable | Fast
+Action: MANUAL REVIEW
+Reason: Stock coverage 91.8d requires monitoring.
+Escalation: Monitor Only
+Deadline: Next Review Cycle (15 days)
+Next Step: Continue regular monitoring → Update stock cards → Report in weekly review.
+Confidence: HIGH
+--------------------------------------------------"
+MED005,Cetirizine Tablet 5mg,Essential,Fast,448,44.84,21.93006993006993,10,11.93006993006993,724.0,8.4,95.0,Stable,LOW (>180d),0,HEALTHY STOCK (ESSENTIAL),4,HIGH,Monitor Only,Next Review Cycle (15 days),Soft Advisory,"ℹ️ MED005 | Cetirizine Tablet 5mg | Essential | Fast
+Action: HEALTHY STOCK (ESSENTIAL)
+Reason: Stock coverage 21.9d requires monitoring.
+Escalation: Monitor Only
+Deadline: Next Review Cycle (15 days)
+Next Step: Continue regular monitoring → Update stock cards → Report in weekly review.
+Confidence: HIGH
+--------------------------------------------------"
+MED011,Antiseptic Lotion,Desirable,Slow,59,5.45,8.26,7,1.2599999999999998,76.92047874842393,4.8,95.0,Stable,LOW (>180d),0,HOLD: LOW PRIORITY DRUG,5,MEDIUM,Archive - No Action Required,No Action Required,Soft Advisory,"ℹ️ MED011 | Antiseptic Lotion | Desirable | Slow
+Action: HOLD: LOW PRIORITY DRUG
+Reason: Stock coverage 8.3d requires monitoring.
+Escalation: Archive - No Action Required
+Deadline: No Action Required
+Next Step: Continue regular monitoring → Update stock cards → Report in weekly review.
+Confidence: MEDIUM
+--------------------------------------------------"

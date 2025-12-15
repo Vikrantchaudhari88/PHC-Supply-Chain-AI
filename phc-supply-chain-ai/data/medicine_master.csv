@@ -1,0 +1,13 @@
+sku_id,sku_name,VED_category,FSN_category,unit,base_consumption,seasonality,weekend_effect
+MED001,Paracetamol Tablet 500mg,Vital,Fast,Tablet,25,1.3,0.8
+MED002,Amoxicillin Capsule 250mg,Vital,Fast,Capsule,20,1.4,0.7
+MED003,Oral Rehydration Salts,Vital,Fast,Packet,15,1.5,0.9
+MED004,Ibuprofen Tablet 200mg,Essential,Fast,Tablet,18,1.2,0.85
+MED005,Cetirizine Tablet 5mg,Essential,Fast,Tablet,12,1.1,0.9
+MED006,Insulin Injection 40 IU/ml,Vital,Slow,Vial,3,1.0,1.0
+MED007,Adrenaline Injection 1 mg/ml,Vital,Slow,Ampoule,1,1.0,1.0
+MED008,Omeprazole Capsule 20mg,Essential,Slow,Capsule,5,1.0,0.95
+MED009,Metformin Tablet 500mg,Essential,Slow,Tablet,8,1.0,1.0
+MED010,Multivitamin Tablet,Desirable,Slow,Tablet,4,1.0,1.0
+MED011,Antiseptic Lotion,Desirable,Slow,Bottle,2,1.0,1.0
+MED012,Cotton Roll 100g,Desirable,Fast,Roll,6,1.0,1.0

@@ -1,0 +1,82 @@
+[
+  {
+    "sku": "MED001",
+    "sku_name": "Paracetamol Tablet 500mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.909035",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED002",
+    "sku_name": "Amoxicillin Capsule 250mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.909035",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED003",
+    "sku_name": "Oral Rehydration Salts",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED004",
+    "sku_name": "Ibuprofen Tablet 200mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED008",
+    "sku_name": "Omeprazole Capsule 20mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED010",
+    "sku_name": "Multivitamin Tablet",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 4 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED009",
+    "sku_name": "Metformin Tablet 500mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 3 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  },
+  {
+    "sku": "MED005",
+    "sku_name": "Cetirizine Tablet 5mg",
+    "risk_status": "Risky",
+    "key_reason": "Stockout risk in 3 scenarios",
+    "recommended_action": "Reorder or redistribute",
+    "confidence_level": "HIGH",
+    "timestamp": "2025-12-06T17:14:17.910038",
+    "escalation_level": "MEDIUM"
+  }
+]
